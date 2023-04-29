@@ -1,37 +1,35 @@
-/* Write your CSS here */
-.container {
+.bg-container {
+  background-color: #f1f5f8;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
-  background-color: #f1f5f8;
+  padding: 10px;
 }
 .heading {
   font-family: 'Roboto';
-  font-size: 40px;
+  font-size: 30px;
   color: #2d3a35;
+  font-weight: bold;
 }
-.paragraph {
+.count {
   font-family: 'Roboto';
-  font-size: 20px;
+  font-size: 30px;
+  color: #c20a72;
+  font-weight: bold;
+}
+.para {
+  font-family: 'Roboto';
+  font-size: 15px;
   color: #2d3a35;
 }
 .button {
-  font-size: 16px;
-  font-weight: 400;
   font-family: 'Roboto';
-  color: white;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin: 8px;
+  color: #ffffff;
   background-color: #007bff;
-  border: none;
-  border-radius: 4px;
+  border-width: 0px;
+  padding: 10px;
+  border-radius: 7px;
 }
-.counter {
-  color: #c20a72;
-  font-size: 40px;
-}
+
