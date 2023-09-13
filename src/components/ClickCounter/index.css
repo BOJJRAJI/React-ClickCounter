@@ -3,33 +3,26 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  padding: 10px;
+  align-items: center;
 }
 .heading {
-  font-family: 'Roboto';
   font-size: 30px;
+  font-family: 'Roboto';
   color: #2d3a35;
-  font-weight: bold;
 }
-.count {
-  font-family: 'Roboto';
-  font-size: 30px;
+.span {
   color: #c20a72;
-  font-weight: bold;
 }
 .para {
-  font-family: 'Roboto';
   font-size: 15px;
+  font-family: 'Roboto';
   color: #2d3a35;
 }
 .button {
-  font-family: 'Roboto';
-  color: #ffffff;
-  background-color: #007bff;
-  border-width: 0px;
-  padding: 10px;
+  border: none;
   border-radius: 7px;
+  padding: 10px;
+  background-color: #007bff;
+  color: #ffffff;
 }
-
