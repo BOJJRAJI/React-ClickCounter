@@ -1,11 +1,10 @@
 import {Component} from 'react'
-
 import './index.css'
 
 class ClickCounter extends Component {
   state = {count: 0}
 
-  onIncrement = () => {
+  increaseCount = () => {
     this.setState(prevState => ({count: prevState.count + 1}))
   }
 
@@ -14,11 +13,11 @@ class ClickCounter extends Component {
     return (
       <div className="bg-container">
         <h1 className="heading">
-          The Button has been clicked <span className="count">{count}</span>{' '}
+          The Button has been clicked <span className="span">{count}</span>{' '}
           times
         </h1>
         <p className="para">Click the button to increase the count!</p>
-        <button type="button" className="button" onClick={this.onIncrement}>
+        <button type="button" className="button" onClick={this.increaseCount}>
           Click Me!
         </button>
       </div>
